@@ -1,0 +1,44 @@
+name: MaikelsTPA
+version: 1.0.0
+main: de.maikel.maikelstpa.MaikelsTPA
+api-version: '1.21'
+author: MaikelCollin
+description: Einfaches TPA-Plugin mit klickbaren Accept/Deny Buttons.
+
+commands:
+  tpa:
+    description: Sende eine Teleport-Anfrage zu einem anderen Spieler
+    usage: /tpa <Spielername>
+    permission: maikelstpa.tpa
+
+  tpaaccept:
+    description: Akzeptiere eine eingehende Teleport-Anfrage
+    usage: /tpaaccept
+    permission: maikelstpa.tpaaccept
+
+  tpadeny:
+    description: Lehne eine eingehende Teleport-Anfrage ab
+    usage: /tpadeny
+    permission: maikelstpa.tpadeny
+
+  tpareload:
+    description: Lädt die TPA Konfiguration neu
+    usage: /tpareload
+    permission: maikelstpa.tpareload
+
+permissions:
+  maikelstpa.tpa:
+    description: Erlaubt das Senden von Teleport-Anfragen
+    default: true
+
+  maikelstpa.tpaaccept:
+    description: Erlaubt das Akzeptieren von Teleport-Anfragen
+    default: true
+
+  maikelstpa.tpadeny:
+    description: Erlaubt das Ablehnen von Teleport-Anfragen
+    default: true
+
+  maikelstpa.tpareload:
+    description: Erlaubt das Neuladen der TPA Konfiguration
+    default: op

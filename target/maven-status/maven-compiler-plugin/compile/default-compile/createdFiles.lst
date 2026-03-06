@@ -1,0 +1,6 @@
+de\maikel\maikelstpa\MaikelsTPA.class
+de\maikel\maikelstpa\TPAAcceptCommand.class
+de\maikel\maikelstpa\TPACommand.class
+de\maikel\maikelstpa\TPAManager.class
+de\maikel\maikelstpa\TPAReloadCommand.class
+de\maikel\maikelstpa\TPADenyCommand.class

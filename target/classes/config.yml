@@ -1,0 +1,34 @@
+# ███╗   ███╗ █████╗ ██╗██╗  ██╗███████╗██╗     ███████╗
+# ████╗ ████║██╔══██╗██║██║ ██╔╝██╔════╝██║     ██╔════╝
+# ██╔████╔██║███████║██║█████╔╝ █████╗  ██║     ███████╗
+# ██║╚██╔╝██║██╔══██║██║██╔═██╗ ██╔══╝  ██║     ╚════██║
+# ██║ ╚═╝ ██║██║  ██║██║██║  ██╗███████╗███████╗███████║
+# ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
+# ████████╗██████╗  █████╗
+# ╚══██╔══╝██╔══██╗██╔══██╗
+#    ██║   ██████╔╝███████║
+#    ██║   ██╔═══╝ ██╔══██║
+#    ██║   ██║     ██║  ██║
+#    ╚═╝   ╚═╝     ╚═╝  ╚═╝
+# MaikelsTPA - Easy teleporting between players!
+# By MaikelCollin
+
+messages:
+  tpa_sent: "§7Teleport-Anfrage an §8%target% §7gesendet."
+  tpa_received: "§8%sender% §7möchte sich zu dir teleportieren."
+  tpa_self: "§cDu kannst dir selber keine TPA senden!"
+  tpa_not_online: "§cSpieler %target% ist nicht online."
+  tpa_accepted: "§7Du hast die Anfrage §aakzeptiert§7."
+  tpa_denied: "§7Du hast die Anfrage §cabgelehnt§7."
+  tpa_no_request: "§cDu hast keine offene Teleport-Anfrage."
+  tpa_accepted_sender: "§a§l%target% §ahat deine Teleport-Anfrage akzeptiert."
+  tpa_denied_sender: "§c§l%target% §chat deine Teleport-Anfrage abgelehnt."
+  tpa_button_accept: "§a§l[Accept] "
+  tpa_button_deny: "§c§l[Deny]"
+  tpa_hover_accept: "§aTeleport-Anfrage akzeptieren"
+  tpa_hover_deny: "§cTeleport-Anfrage ablehnen"
+  no_permission: "§cDu hast keine Berechtigung dafür."
+  tpa_box_line: "§7-----------------------------------------"
+
+# Allow only certain players to use TPA  - my plugin is also configurable under the name "maikelstpa" via Luckperms
+# Thanks for using
